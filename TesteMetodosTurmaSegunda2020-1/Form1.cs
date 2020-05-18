@@ -20,15 +20,9 @@ namespace TesteMetodosTurmaSegunda2020_1
 
         private void btnVerificar_Click(object sender, EventArgs e)
         {
-            //declaração das variáveis
-            //entrada de dados para as variáveis
-            var a = Convert.ToInt32(txtA.Text);
-            var b = Convert.ToInt32(txtB.Text);
-            var c = Convert.ToInt32(txtC.Text);
-
-
+            
             // Adicionando números ao array
-            int[] arrayNumeros = {a, b, c};
+            int[] arrayNumeros = { Convert.ToInt32(txtA.Text), Convert.ToInt32(txtB.Text), Convert.ToInt32(txtC.Text) };
 
             // chamando a função VerificaMaior 
             // e passando os argumentos para os parâmetros num1 e num2
